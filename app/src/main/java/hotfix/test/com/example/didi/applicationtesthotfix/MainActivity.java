@@ -6,10 +6,10 @@ import android.util.Log;
 import android.view.View;
 
 
-
-
 public class MainActivity extends Activity {
-    MainActivity(){
+
+    public MainActivity() {
+        super();
         Log.e("Ruby", Anti.class.getName());
     }
 
