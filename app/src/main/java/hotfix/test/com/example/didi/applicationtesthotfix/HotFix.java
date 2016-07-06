@@ -22,6 +22,10 @@ import dalvik.system.PathClassLoader;
 /* compiled from: ProGuard */
 public final class HotFix {
 
+    HotFix(){
+        Log.e("Ruby", Anti.class.getName());
+    }
+
     static ClassLoader  path;
     static ClassLoader  first;
     static ClassLoader  second;

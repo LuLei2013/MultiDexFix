@@ -11,11 +11,15 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 import android.content.Context;
+import android.util.Log;
 
 /**
  * Created by sunpengfei on 15/11/4.
  */
 public class Utils {
+    Utils(){
+        Log.e("Ruby", Anti.class.getName());
+    }
     private static final int BUF_SIZE = 2048;
 
     public static boolean prepareDex(Context context, File dexInternalStoragePath, String dex_file) {
